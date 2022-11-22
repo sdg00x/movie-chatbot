@@ -1,0 +1,40 @@
+[
+
+  {
+    "answer_type": "greeting",
+    "user_input": ["what’s up", "hi", "hey", "hey will","howdy","how are you","how is it going", "long time no see!", "what's new?","yo", "how is everything"],
+    "chatbot_response": ["Hey there!", "Hi, it is Will what can I do for you today", "Hello, what would you be watching today", "Hey champ, horror :)?"],
+    "required_words": []
+  },
+  {
+    "answer_type": "exit",
+    "user_input": ["bye", "goodbye", "see you", "that would be all", "in a bit","end","exit","later","goodbye will", "bye will"],
+    "chatbot_response": ["ok bye champ", "alright then, have a good one", "ok, See you later!"],
+    "required_words": ["exit","end","quit","finish"]
+  },
+  {
+    "answer_type": "greeting",
+    "user_input": ["i", "need", "help"],
+    "chatbot_response": ["what do you need help with?", "what is the problem?","how can I help you today?"],
+    "required_words": ["help"]
+  },
+  {
+    "answer_type": "question",
+    "user_reply": ["which", "horror", "movie", "should", "i", "watch","?"],
+    "chatbot_response": "Start by typing: 'Horror movies'.",
+    "required_words": ["horror", "Horror", "movie"]
+  },
+  {
+    "answer_type" : "question",
+    "user_reply" : ["are", "any", "of", "this", "scary"],
+    "chatbot_response" : ["You must be joking, you will be terrified.","Watch and find out, you in for a ride :)"],
+    "required_words ": ["scary"]
+  },
+  {
+    "answer_type": "question",
+    "user_reply ": ["Can", "you", "suggest","horror", "movies", "released", "this ", "year"],
+    "chatbot_response": ["sure thing, here are horror movies released this here according to our data"],
+    "required_words": ["this", "year"]
+  }
+]
+
